@@ -1,0 +1,17 @@
+- op: replace
+  path: /metadata/name
+  value: micro4
+- op: replace
+  path: /spec/selector/matchLabels
+  value:
+    app: micro4
+- op: replace
+  path: /spec/template/metadata/labels
+  value:
+    app: micro4
+- op: replace
+  path: /spec/template/spec/containers/0/name
+  value: micro4
+- op: replace
+  path: /spec/replicas
+  value: 2

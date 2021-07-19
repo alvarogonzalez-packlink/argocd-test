@@ -1,0 +1,10 @@
+- op: replace
+  path: /metadata/name
+  value: micro4
+- op: replace
+  path: /metadata/labels/app
+  value: micro4
+- op: replace
+  path: /spec/selector
+  value:
+    app: micro4
