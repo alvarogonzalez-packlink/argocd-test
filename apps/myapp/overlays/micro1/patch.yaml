@@ -1,0 +1,6 @@
+- op: replace
+  path: /metadata/name
+  value: micros1
+- op: replace
+  path: /spec/replicas
+  value: 1
