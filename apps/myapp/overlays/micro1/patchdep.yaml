@@ -3,7 +3,8 @@
   value: micros1
 - op: replace
   path: /spec/selector/matchLabels
-  value: micros1
+  value:
+    app: micros1
 - op: replace
   path: /spec/template/metadata/labels
   value: micros1
