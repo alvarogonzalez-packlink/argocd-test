@@ -5,8 +5,6 @@
   path: /metadata/labels/app
   value: micros1
 - op: replace
-  path: /spec/selector/app
-  value: micros1
-- op: replace
-  path: /spec/replicas
-  value: 1
+  path: /spec/selector
+  value:
+    app: micros1
