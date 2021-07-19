@@ -7,7 +7,8 @@
     app: micros1
 - op: replace
   path: /spec/template/metadata/labels
-  value: micros1
+  value:
+    app: micros1
 - op: replace
   path: /spec/template/spec/containers/0/name
   value: micros1
